@@ -55,7 +55,7 @@ const AdminLayout = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/results" className="hover:text-blue-500">
+              <NavLink to="/exam-result" className="hover:text-blue-500">
                 Results - Step 7
               </NavLink>
             </li>
@@ -66,7 +66,7 @@ const AdminLayout = () => {
             </li>
             <li>
               <NavLink to="/admin-dashboard" className="hover:text-blue-500">
-                Dashboard - Step 8
+                Dashboard - Step 9
               </NavLink>
             </li>
           </ul>

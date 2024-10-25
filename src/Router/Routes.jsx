@@ -9,6 +9,8 @@ import NotFound from "../Pages/Shared/NotFound";
 import ExamDate from "../Pages/Home/ExamDate/ExamDate";
 import AllUsers from "../Pages/Home/AllUsers/AllUsers";
 import ExamQuestion from "../Pages/Home/ExamQus/ExamQuestion";
+import ExamResult from "../Pages/Home/ExamResult/ExamResult";
+import VerifyCertificed from "../Pages/Home/VerifyCertificed/VerifyCertificed";
 
 const router = createBrowserRouter([
     {
@@ -46,6 +48,14 @@ const router = createBrowserRouter([
             {
                 path: "/exam-question",
                 element: <ExamQuestion />,
+            },
+            {
+                path: "/exam-result",
+                element: <ExamResult />,
+            },
+            {
+                path: "/verify-certificate",
+                element: <VerifyCertificed />,
             },
             {
                 path: "*",
