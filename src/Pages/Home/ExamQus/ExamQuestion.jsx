@@ -145,7 +145,7 @@ const ExamQuestion = () => {
       </div>
       <AnimatePresence mode="wait">
         {questions.length > 0 && (
-          <motion.div
+          <motion.div 
             key={currentQuestion}
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
