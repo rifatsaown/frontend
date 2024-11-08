@@ -9,7 +9,6 @@ import UserVarification from '../Pages/Home/UserVarification/UserVarification';
 import VerifyCertificed from '../Pages/Home/VerifyCertificed/VerifyCertificed';
 import AdminDashboard from '../Pages/Layout/AdminLayout/AdminDashboard/AdminDashboard';
 import AdminLayout from '../Pages/Layout/AdminLayout/AdminLayout';
-import AllStudents from '../Pages/Layout/AdminLayout/AllStudents/AllStudents';
 import NotFound from '../Pages/Shared/NotFound';
 
 const router = createBrowserRouter([
@@ -20,10 +19,6 @@ const router = createBrowserRouter([
       {
         path: '/admin-dashboard',
         element: <AdminDashboard />,
-      },
-      {
-        path: '/all-students',
-        element: <AllStudents />,
       },
       {
         path: '/users',
